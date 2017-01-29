@@ -1,0 +1,125 @@
+html {
+    
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    margin: -50px 0 -50px 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: url('images/bayvision.JPG');
+    background-size: cover;
+    padding: 75px 0 0px 0 ;    
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 3px 3px 4px #BBBBFF;
+    color:white;
+}
+
+h2 {
+    text-transform: uppercase;
+    color:white;
+}
+
+ul {
+    list-style: none;
+    padding-left:0;
+    background: rgba(0,0,0, .5);
+    padding-top: 0;
+        
+}
+
+li {
+    display:inline;   
+    padding: 10px 20px 5px 20px;
+}
+
+li:hover {
+     background-color: #50AAEE;
+}
+
+a {
+    color:white;
+}
+
+.expand {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.sub-menu {
+    display:none;
+    position:absolute;
+    z-index: 1; 
+    left:0;
+    min-width: 100px;
+    text-align: center;
+    padding: 0 auto;
+    background: rgba(0,0,0,.9)
+}
+.sub-menu li {
+    padding: 10px auto ;
+    min-width: 100px;
+    display: block;
+}
+
+.sub-menu li:hover {
+    background-color: #50AAEE;
+    display:block;
+}
+
+.visible {
+    display:block;
+}
+
+
+
+.expand:hover .sub-menu {
+    display: block;
+}
+
+main {
+    color:white;
+    position: relative;
+    background:white;
+}
+
+article {
+    max-width: 500px;
+    margin:20px auto;
+    background:rgba(0,150,255,.6);
+    padding: 15px;
+}
+
+main p {
+    color:black;
+    padding: 0 20px;
+}
+
+footer {
+    display: block;
+    background: rgba(0,0,0,1);
+    color:white;
+    padding-top: 3px;
+    padding-left: 5px;
+    text-align:center; 
+    bottom:0;    
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: -20px auto 0px auto;
+    padding: 5px;
+    /*
+    background:rgba(0,0,0,1);
+    */
+}
+@media (max-width: 500px) {
+      
+    }
